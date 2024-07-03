@@ -1,0 +1,38 @@
+name: shopsmart_users_en
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.1.0
+  provider: ^6.0.5
+  flutter_iconly: ^1.0.2
+  shimmer: ^3.0.0
+  fancy_shimmer_image: ^2.0.2
+  lib: ^0.0.3
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+ 
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/profile/
+    - assets/images/bag/
+    - assets/images/banners/
+    - assets/images/categories/
+
+ 
